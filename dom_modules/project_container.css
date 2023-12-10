@@ -1,0 +1,7 @@
+.project-container {
+    display: grid;
+    grid-template-rows: auto;
+    background-color: yellow;
+    height: 100%;
+    width: 100%;
+}

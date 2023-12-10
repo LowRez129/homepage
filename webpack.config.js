@@ -8,6 +8,8 @@ const entry = {
 const plugins = [
     new HtmlWebpackPlugin({
         title: 'Homepage',
+        filename: 'index.html',
+        template: './src/homepage.html',
     }),
 ];
 const devtool = 'inline-source-map';

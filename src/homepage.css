@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: grey;
+    height: 10%;
+}
+
+main {
+    background-color: white;
+    height: 80%;
+}
+
+footer {
+    background-color: grey;
+    height: 10%;
+}
