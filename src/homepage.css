@@ -3,15 +3,17 @@
     padding: 0;
 }
 
+html {
+    height: 100dvh;
+}
+
 body {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 header,
 footer {
-    height: 100%;
     background: grey;
+    height: 10rem;
 }

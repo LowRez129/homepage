@@ -1,5 +1,15 @@
 .project-content {
+    display: flex;
     background-color: greenyellow;
-    overflow-wrap: normal;
+}
+
+.project-img {
+    background-color: mediumspringgreen;
+    height: 100%;
+    width: 50%;
+}
+
+.project-text { 
+    background-color: goldenrod;
 }
 

@@ -1,0 +1,17 @@
+.introduction-container {
+    display: flex;
+    background-color: midnightblue;
+    height: 10rem;
+    align-items: center;
+}
+
+.profile-picture {
+    background-color: peru;
+    height: 100%;
+    width: 50%;
+}
+
+p {
+    background-color: white;
+    height: 100%;
+}
