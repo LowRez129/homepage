@@ -10,17 +10,8 @@ body {
     height: 100vh;
 }
 
-header {
-    background-color: grey;
-    height: 10%;
-}
-
-main {
-    background-color: white;
-    height: 80%;
-}
-
+header,
 footer {
-    background-color: grey;
-    height: 10%;
+    height: 100%;
+    background: grey;
 }
