@@ -1,15 +1,30 @@
 .project-content {
     display: flex;
-    background-color: greenyellow;
+    flex-direction: column;
 }
 
 .project-img {
     background-color: mediumspringgreen;
-    height: 100%;
-    width: 50%;
+    height: 100px; 
 }
 
 .project-text { 
     background-color: goldenrod;
 }
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-container {
+    display: flex;
+    background-color: bisque;
+    gap: 5px;
+}
+
+@media (max-width: 500px) {
+    .project-content {
+        flex-direction: column;
+    }
+}

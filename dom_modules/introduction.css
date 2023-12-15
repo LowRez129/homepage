@@ -1,17 +1,30 @@
 .introduction-container {
     display: flex;
     background-color: midnightblue;
-    height: 10rem;
-    align-items: center;
 }
 
-.profile-picture {
+.introduction-img {
     background-color: peru;
-    height: 100%;
-    width: 50%;
+    height: 100px;
+    width: 100px;
+    content: url(
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    );
+    animation: 1s spin-img infinite;
 }
 
-p {
+.introduction-p {
     background-color: white;
-    height: 100%;
+}
+
+@media (max-width: 500px) {
+    .introduction-container {
+        flex-direction: column;
+    }
+}
+
+@keyframes spin-img {
+    100% {
+        transform: rotate(360deg);
+    }
 }

@@ -10,10 +10,20 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    background-color: yellow;
 }
 
 header,
 footer {
     background: grey;
-    height: 10rem;
+    height: 5rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 500px) {
+
 }

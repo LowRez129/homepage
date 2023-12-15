@@ -2,12 +2,13 @@ import './introduction.css';
 
 export default function introduction () {
     const div = document.createElement('div');
-    const img = document.createElement('div');
+    const img = document.createElement('img');
     const p = document.createElement('p');
     const br = document.createElement('br');
 
     div.classList.add('introduction-container');
-    img.classList.add('profile-picture');
+    img.classList.add('introduction-img');
+    p.classList.add('introduction-p');
     p.append(
         "Higher than mountain, of cavernous people.",
         "Searching for the lighthouse in the fog.",
